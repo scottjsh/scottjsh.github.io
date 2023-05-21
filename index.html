@@ -12,7 +12,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','G-PGET702F54');</script>
 <!-- End Google Tag Manager -->
-<link rel="icon" type="image/png" href="/favicon.png"/>
+<link rel="shortcut icon" href="/assets/favicon/favicon-0.png?" type="image/x-icon">
+<link id= "favicon" rel="icon" href="#" type="image/x-icon">
+    <script>
+      // favicon
+        var faviconRoute = '/assets/favicon/';
+        var faviconNames = ['favicon-0.png', 'favicon-1.png', 'favicon-2.png', 'favicon-3.png', 'favicon-4.png',
+                        'favicon-5.png', 'favicon-6.png', 'favicon-7png', 'favicon-8png', 'favicon-9.png',
+			'favicon-10.png', 'favicon-11.png', 'favicon-12.png', 'favicon-13.png', 'favicon-14.png',
+			'favicon-15.png', 'favicon-16.png', 'favicon-17.png', 'favicon-18.png', 'favicon-19.png'] <!--파일이름은 짧게 변경했다-->
+    
+        var idx = 0;
+    
+        setInterval(func, 10);
+    
+        function func() {
+            document.querySelector("#favicon").setAttribute('href', faviconRoute + faviconNames[idx++]);
+            idx %= faviconNames.length;
+        }
+    </script>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
