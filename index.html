@@ -10,27 +10,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','G-PGET702F54');</script>
 <!-- End Google Tag Manager -->
-<link rel="shortcut icon" href="/assets/favicon/favicon-0.png?" type="image/x-icon">
+<link rel="shortcut icon" href="/assets/favicon/favicon-0.png" type="image/x-icon">
 <link id= "favicon" rel="icon" href="" type="image/x-icon">
 <!-- Favicon Gif
-    <script>
-      // favicon
-        var faviconRoute = '/assets/favicon/';
-        var faviconNames = ['favicon-0.png', 'favicon-1.png', 'favicon-2.png', 'favicon-3.png', 'favicon-4.png',
-                        'favicon-5.png', 'favicon-6.png', 'favicon-7.png', 'favicon-8.png', 'favicon-9.png',
-			'favicon-10.png', 'favicon-11.png', 'favicon-12.png', 'favicon-13.png', 'favicon-14.png',
-			'favicon-15.png', 'favicon-16.png', 'favicon-17.png', 'favicon-18.png', 'favicon-19.png']
+<script>
+  // favicon
+  var faviconRoute = '/assets/favicon/';
+  var faviconNames = ['favicon-0.png', 'favicon-1.png', 'favicon-2.png', 'favicon-3.png', 'favicon-4.png',
+                     'favicon-5.png', 'favicon-6.png', 'favicon-7.png', 'favicon-8.png', 'favicon-9.png',
+					 'favicon-10.png', 'favicon-11.png', 'favicon-12.png', 'favicon-13.png', 'favicon-14.png',
+					 'favicon-15.png', 'favicon-16.png', 'favicon-17.png', 'favicon-18.png', 'favicon-19.png']
+  
+  var idx = 0;
     
-        var idx = 0;
+  setInterval(func, 250);
     
-        setInterval(func, 250);
-    
-        function func() {
-            document.querySelector("#favicon").setAttribute('href', faviconRoute + faviconNames[idx++]);
-            idx %= faviconNames.length;
-        }
-    </script>
+  function func() {
+      document.querySelector("#favicon").setAttribute('href', faviconRoute + faviconNames[idx++]);
+      idx %= faviconNames.length;
+  }
+</script>
 -->
+
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
@@ -71,6 +72,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
 <!-- End Iconify Icon -->
 
+<!-- Random Image -->
+<script language="javascript">
+  function random_img(){
+    num=Math.floor(Math.random()*9);
+    document.randomImage.src="assets/img/nyan"+num+".jpg";
+  }
+</script>
+<!-- End Random Image -->
 
 <!-- =======================================================
 * Template Name: Personal - v2.1.0
@@ -82,39 +91,37 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <body>
 
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5BB8W2X"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5BB8W2X"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
 	
-<!-- ======= Header ======= -->
-<header id="header" class="header-tops">
+  <!-- ======= Header ======= -->
+  <header id="header" class="header-tops">
 
-<div class="container">
+    <div class="container">
+	  <h1><a href="/">SeHyun Jun</a></h1>
+      <h2 style="color:#fff">I'm <span class="typing" style="color:#12D640"></span>.</h2>
+      <nav class="nav-menu d-none d-lg-block">
+	    <ul>
+	      <li class="active"><a href="#header"> <span>Home</span></a></li>
+	      <li><a href="#about"> <span>About</span></a></li>
+	      <li><a href="#contacts"> <span>Contacts</span></a></li>
+	      <li><a href="https://m.blog.naver.com/scottjsh" target="_blank"> <span>Blog</span></a></li>
+	      <li><a href="https://asked.kr/scottjsh" target="_blank"> <span>Asked</span></a></li>
+	      <li><a href="https://www.metavv.com/ko/creator/10560250?_c=content" target="_blank"> <span>Metavv</span></a></li>
+   	    </ul>
+      </nav><!-- .nav-menu -->
 
-<h1><a href="/">SeHyun Jun</a></h1>
-<h2 style="color:#fff">I'm <span class="typing" style="color:#12D640"></span>.</h2>
-<nav class="nav-menu d-none d-lg-block">
-<ul>
-  <li class="active"><a href="#header"> <span>Home</span></a></li>
-  <li><a href="#about"> <span>About</span></a></li>
-  <li><a href="#contacts"> <span>Contacts</span></a></li>
-  <li><a href="https://m.blog.naver.com/scottjsh" target="_blank"> <span>Blog</span></a></li>
-  <li><a href="https://asked.kr/scottjsh" target="_blank"> <span>Asked</span></a></li>
-  <li><a href="https://www.metavv.com/ko/creator/10560250?_c=content" target="_blank"> <span>Metavv</span></a></li>
-
-</ul>
-</nav><!-- .nav-menu -->
-
-<div class="social-links">
-          <a href="https://www.instagram.com/js_hyun118/" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
- 	  <a href="https://asked.kr/scottjsh" target="_blank" class="asked"><i class='bx bx-question-mark'></i></a>
-          <a href="https://www.github.com/scottjsh" target="_blank" class="github"><i class="bx bxl-github"></i></a>
-          <a href="mailto:scottjsh@naver.com" target="_blank" class="google"><i class="bx bx-envelope"></i></a>
-
+      <div class="social-links">
+        <a href="https://www.instagram.com/js_hyun118/" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
+ 	    <a href="https://asked.kr/scottjsh" target="_blank" class="asked"><i class='bx bx-question-mark'></i></a>
+        <a href="https://www.github.com/scottjsh" target="_blank" class="github"><i class="bx bxl-github"></i></a>
+        <a href="mailto:scottjsh@naver.com" target="_blank" class="google"><i class="bx bx-envelope"></i></a>
+      </div>
     </div>
-  </div>
-  </header><!-- End Header -->
+   </header>
+   <!-- End Header -->
 
   <!-- Start Contact Section -->
 
@@ -133,7 +140,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <h3>Social Network</h3>
             <div class="social-links">
               <a href="https://www.instagram.com/js_hyun118/" target="_blank" class="Instagram"><i class="bx bxl-instagram"></i></a>
-	      <a href="https://asked.kr/scottjsh" target="_blank" class="asked"><i class='bx bx-question-mark'></i></a>
+	          <a href="https://asked.kr/scottjsh" target="_blank" class="asked"><i class='bx bx-question-mark'></i></a>
               <a href="https://www.github.com/scottjsh" target="_blank" class="github"><i class="bx bxl-github"></i></a>
               <a href="mailto:scottjsh@naver.com" target="_blank" class="mail"><i class="bx bx-envelope"></i></a>
 
@@ -170,7 +177,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <img src="assets/img/profile.gif" class="img-fluid" alt="">
         </div>
         <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-	  <p style="font-size: 24px">Student developer with interest in: <strong>Python</strong>, <strong>JavaScript</strong>, <strong>Arduino</strong> and <strong>Security</strong>. I want to be <strong>Developer</strong>.
+		  <p style="font-size: 24px">Student developer with interest in: <strong>Python</strong>, <strong>JavaScript</strong>, <strong>Arduino</strong> and <strong>Security</strong>. I want to be <strong>Developer</strong>.
           </p>
           <div class="row">
             <div class="col-lg-6">
@@ -180,7 +187,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
             <div class="col-lg-6">
               <ul>
-		<li style="font-size: 18px"><i class="icofont-rounded-right"></i> <strong>Nationality:</strong> South Korean</li>
+				<li style="font-size: 18px"><i class="icofont-rounded-right"></i> <strong>Nationality:</strong> South Korean</li>
                 <li style="font-size: 18px"><i class="icofont-rounded-right"></i> <strong>Email:</strong> scottjsh@naver.com</li>
               </ul>
             </div>
@@ -189,15 +196,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="col-lg-4" data-aos="fade-right">
           <img name="randomImage" class="img-fluid" alt="">
         </div>
-	random_img()
-	<div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-	  <p style="font-size: 30px">My Favorite <strong><a href="https://instagram.com/i_am_young22" target="_blank">Hina</a></strong>❤️
-          </p>
-	</div>
+		<script>
+		random_img()
+		</script>
+		<div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+		  <p style="font-size: 30px">My Favorite <strong><a href="https://instagram.com/i_am_young22" target="_blank">Hina</a></strong>❤️
+		  </p>
+		</div>
       </div>
 
     </div><!-- End About Me -->
-
 
 
   <!-- Vendor JS Files -->
@@ -224,15 +232,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <!-- End Template Main JS File -->
-
-  <!-- Random Image -->
-  <script language="javascript">
-    function random_img(){
-      num=Math.floor(Math.random()*7);
-      document.randomImage.src="img/nyan"+num+".jpg";
-    }
-  </script>
-  <!-- End Random Image -->
 
 </body>
 
