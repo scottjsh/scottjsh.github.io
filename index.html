@@ -187,7 +187,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
         </div>
         <div class="col-lg-4" data-aos="fade-right">
-          <img src="assets/img/nyan.jpg" class="img-fluid" alt="">
+          <img name="randomImage" class="img-fluid" alt="">
         </div>
 	<div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
 	  <p style="font-size: 30px">My Favorite <strong><a href="https://instagram.com/i_am_young22" target="_blank">Hina</a></strong>❤️
@@ -223,6 +223,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <!-- End Template Main JS File -->
+
+  <!-- Random Image -->
+  <script language="javascript">
+  function random_img(){
+  num=Math.floor(Math.random()*7);
+  document.randomImage.src="img/nyan"+num+".jpg";
+  }
+  <!-- End Random Image -->
 
 </body>
 
