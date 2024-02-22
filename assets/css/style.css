@@ -906,7 +906,7 @@ section .container {
   background: rgba(255, 255, 255, 0.1);
 }
 
-.contact .info-box .social-links a.youtube{
+.contact .info-box a.youtube{
   font-size: 24px;
   color: #dee2e6;
   border-radius: 50%;
