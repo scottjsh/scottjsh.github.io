@@ -235,9 +235,10 @@
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       var ua = navigator.userAgent || navigator.vendor || window.opera;
-      var isIOS = /iPad|iPhone|iPod/.test(ua) ||
-                  (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
-      if (isIOS) {
+      // iPhone, iPad, iPod + 맥(맥북 포함) 전부 Apple 기기로 처리
+      var isApple = /iPad|iPhone|iPod|Macintosh/.test(ua) ||
+                    navigator.platform === 'MacIntel';
+      if (isApple) {
         document.querySelectorAll('a[href*="com.zeki.valostore"]')
           .forEach(function (a) {
             a.href = 'https://apps.apple.com/app/id6761961323';
